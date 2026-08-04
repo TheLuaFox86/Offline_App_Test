@@ -9,5 +9,16 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+	 if ('serviceWorker' in navigator) {
+   	 window.addEventListener('load', () => {
+      // Points to the sw.js file we put in the public folder
+      navigator.serviceWorker.register('./sw.js')
+        .then(() => console.log('Offline service worker active!'))
+        .catch((err) => console.error('Worker failed:', err));
+    });
+  }
+</script>
+
   </body>
 </html>

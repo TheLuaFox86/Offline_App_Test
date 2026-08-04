@@ -7,9 +7,9 @@ export default defineConfig({
   base: '/Offline_App_Test/', 
   plugins: [
     react(),
-    VitePWA({
-      registerType: 'autoUpdate',
+   // VitePWA({
+     // registerType: 'autoUpdate',
       // Include any other PWA configuration properties here
-    })
+    //})
   ]
 })
