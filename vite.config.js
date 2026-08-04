@@ -3,6 +3,7 @@ import { defineConfig } from 'vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/Offline_App_Test/',
   plugins: [VitePWA({
     registerType: 'prompt',
     injectRegister: false,
