@@ -18,6 +18,8 @@ export default defineConfig({
       short_name: 'my-offline-app',
       description: 'my-offline-app',
       theme_color: '#3C0000',
+      display: 'standalone',      // Emulates a native app look
+      orientation: 'portrait'
     },
 
     workbox: {
