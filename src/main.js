@@ -3,7 +3,12 @@ import javascriptLogo from './javascript.svg'
 import appLogo from '/favicon.svg'
 import { setupCounter } from './counter.js'
 import { initPWA } from './pwa.js'
+import { fs } from '@zenfs/core'; // You can also use the default export
 
+fs.writeFileSync('/test.txt', 'You can do this anywhere, including browsers!');
+
+const contents = fs.readFileSync('/test.txt', 'utf-8');
+console.log(contents);
 const app = document.querySelector('#app')
 app.innerHTML = `
   <div>
