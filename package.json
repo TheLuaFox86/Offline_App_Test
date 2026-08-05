@@ -11,12 +11,18 @@
   },
   "devDependencies": {
     "@vite-pwa/assets-generator": "^1.0.2",
-    "vite": "^7.1.9",
-    "vite-plugin-pwa": "^1.1.0",
+    "vite-plugin-pwa": "^0.18.2",
     "workbox-window": "^7.4.0"
   },
   "overrides": {
     "sharp": "^0.33.5",
     "sharp-ico": "^0.1.5"
+  },
+  "dependencies": {
+    "@zenfs/core": "^2.6.2"
+  },
+  "allowScripts": {
+    "sharp@0.33.5": true,
+    "esbuild@0.21.5": true
   }
 }
