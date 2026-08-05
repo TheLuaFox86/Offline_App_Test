@@ -19,7 +19,8 @@
     "sharp-ico": "^0.1.5"
   },
   "dependencies": {
-    "@zenfs/core": "^2.6.2"
+    "@zenfs/core": "^2.6.2",
+    "rollup": "^4.62.4"
   },
   "allowScripts": {
     "sharp@0.33.5": true,
