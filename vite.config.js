@@ -19,7 +19,9 @@ export default defineConfig({
       description: 'my-offline-app',
       theme_color: '#3C0000',
       display: 'standalone',      // Emulates a native app look
-      orientation: 'portrait'
+      orientation: 'portrait',
+      start_url: '/',
+      scope: '/'
     },
 
     workbox: {
