@@ -12,18 +12,10 @@ console.log(contents);
 const app = document.querySelector('#app')
 app.innerHTML = `
   <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="${appLogo}" class="logo" alt="my-offline-app logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>my-offline-app</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
+    <img src="https://theluafox86.github.io/logo.jpg" style="width: 20%; height: 20%">
+    <h1>hello, im LuaFox</h1>
     <p class="read-the-docs">
-      Click on the Vite logo to learn more
+      Wellcome to my WebApp
     </p>
   </div>
   <div
