@@ -20,8 +20,8 @@ export default defineConfig({
       theme_color: '#3C0000',
       display: 'standalone',      // Emulates a native app look
       orientation: 'portrait',
-      start_url: '/',
-      scope: '/'
+      start_url: '/Offline_App_Test/',
+      scope: '/Offline_App_Test/'
     },
 
     workbox: {

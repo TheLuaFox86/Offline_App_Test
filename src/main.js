@@ -13,7 +13,7 @@ const app = document.querySelector('#app')
 app.innerHTML = `
   <div>
     <img src="https://theluafox86.github.io/logo.jpg" style="width: 20%; height: 20%">
-    <h1>hello, im LuaFox</h1>
+    <h1>hello, im LuaFox :P</h1>
     <p class="read-the-docs">
       Wellcome to my WebApp
     </p>
