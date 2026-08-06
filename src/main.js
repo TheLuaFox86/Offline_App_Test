@@ -17,6 +17,7 @@ app.innerHTML = `
     <p class="read-the-docs">
       this is a test Wellcome to my WebApp
     </p>
+    <h2 style="color:#ff0000;">~ 666 ~</h2>
   </div>
   <div
     id="pwa-toast"
