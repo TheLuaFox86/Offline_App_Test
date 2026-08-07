@@ -39,7 +39,7 @@ export function initPWA(app) {
         })
     }
 
-    let swActivated = false
+    let swActivated = true
     // periodic sync is disabled, change the value to enable it, the period is in milliseconds
    // You can remove onRegisteredSW callback and registerPeriodicSync function
     const period = 0

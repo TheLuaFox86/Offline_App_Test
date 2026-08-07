@@ -1,7 +1,4 @@
 import './style.css'
-import javascriptLogo from './javascript.svg'
-import appLogo from '/favicon.svg'
-import { setupCounter } from './counter.js'
 import { initPWA } from './pwa.js'
 import { fs } from '@zenfs/core'; // You can also use the default export
 
@@ -37,7 +34,5 @@ app.innerHTML = `
     </div>
   </div>
 `
-
-setupCounter(document.querySelector('#counter'))
 
 initPWA(app)
